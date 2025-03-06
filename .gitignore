@@ -1,0 +1,35 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node.js
+frontend/web/node_modules/
+desktop/electron/node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Build
+/dist/
+/build/
+
+# System files
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+
+# Misc
+*.bak
+*.swp
