@@ -1,24 +1,24 @@
 version: '3.8'
 
 services:
-  backend:
-    build: ./backend
-    container_name: password-backend
-    volumes:
-      - ./backend:/app
-    ports:
-      - "5000:5000"
+  # backend:
+  #   build: ./backend
+  #   container_name: password-backend
+  #   volumes:
+  #     - ./backend:/app
+  #   ports:
+  #     - "5000:5000"
 
   frontend:
-    build: ./frontend/web
+    build: ./frontend
     container_name: password-frontend
     volumes:
       - ./frontend/web:/app
     ports:
-      - "3000:3000"
+      - "3000:80"
 
-  desktop:
-    build: ./desktop/electron
-    container_name: password-desktop
-    volumes:
-      - ./desktop/electron:/app
+  # desktop:
+  #   build: ./desktop/electron
+  #   container_name: password-desktop
+  #   volumes:
+  #     - ./desktop/electron:/app
