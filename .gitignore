@@ -33,3 +33,5 @@ Thumbs.db
 # Misc
 *.bak
 *.swp
+
+**/node_modules/
